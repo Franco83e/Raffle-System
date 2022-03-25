@@ -8,8 +8,9 @@ function Raffles() {
   const [raffleStatus, setRaffleStatus] = useState();
 
   const onChangeHandler = (e) => {
-    if (e.target.id === "increment") setValue(value + 1);
-    else if (e.target.id === "decrement" && value > 1) setValue(value - 1);
+    if (e.target.id === "increment") {
+      setValue(value + 1);
+    } else if (e.target.id === "decrement" && value > 1) setValue(value - 1);
   };
 
   return (
