@@ -48,21 +48,21 @@ function Raffles() {
                           type="button"
                           onClick={() => setValue(1)}
                         >
-                          1 $GEMS
+                          1 $INCOME
                         </button>
                         <button
                           className="btn btn-light me-1"
                           type="button"
                           onClick={() => setValue(10)}
                         >
-                          10 $GEMS
+                          10 $INCOME
                         </button>
                         <button
                           className="btn btn-light"
                           type="button"
                           onClick={() => setValue(100)}
                         >
-                          100 $GEMS
+                          100 $INCOME
                         </button>
                       </div>
                       <button
@@ -105,7 +105,7 @@ function Raffles() {
                             raffleStatus?.totalStaked || 0
                           ).toLocaleString("en-US")}
                         </b>{" "}
-                        $GEMS
+                        $INCOME
                       </p>
                       <p className="mb-1">
                         Your Entries :&nbsp;{" "}
@@ -114,7 +114,7 @@ function Raffles() {
                             "en-US"
                           )}
                         </b>{" "}
-                        $GEMS
+                        $INCOME
                       </p>
                       <a
                         className="btn-discord mb-1"
