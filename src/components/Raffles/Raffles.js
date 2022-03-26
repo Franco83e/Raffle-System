@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BannerBG from "../../images/background.png";
-import image1 from "../../images/1.png";
+import image1 from "../../images/token-income.gif";
 import "./Raffles.css";
 
 function Raffles() {
