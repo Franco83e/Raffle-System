@@ -1,7 +1,8 @@
 import React from "react";
 import Logo from "../../images/logo1.png";
-import WalletLogo from "../../images/wallet-icon.png";
+// import WalletLogo from "../../images/wallet-icon.png";
 import "../../css/responsive.css";
+import { SpecialWalletMultiButton } from "./WalletMulti";
 
 function Header() {
   return (
@@ -15,10 +16,11 @@ function Header() {
 
             <div className="right-btn">
               <button className="wallet">
-                <a style={{ color: "white" }} title="Connect Wallet">
+                {/* <a style={{ color: "white" }} title="Connect Wallet">
                   <img src={WalletLogo} alt="" />
                   <span>Connect Wallet </span>
-                </a>
+                </a> */}
+                <SpecialWalletMultiButton />
               </button>
             </div>
           </div>
