@@ -1,0 +1,105 @@
+h2.MuiTypography-h6.MuiTypography-root {
+    font-size: 27px;
+}
+.MuiDialogTitle-root {
+    padding: 26px;
+}
+svg.MuiSvgIcon-root {
+    padding-right: 19px;
+}
+h2.MuiTypography-root.MuiTypography-h6 {
+    width: 290px;
+}
+.MuiDialogTitle-root {
+    padding: 28px;
+}
+.makeStyles-root-1 .MuiDialog-paper {
+    width: 320px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.makeStyles-root-1 .MuiDialogContent-root .MuiListItem-root .MuiButton-root {
+    padding: 32px 24px;
+    flex-grow: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    font-size: 25px;
+}
+.makeStyles-root-1 .MuiDialogContent-root .MuiListItem-root .MuiButton-root {
+    padding: 23px 24px !important;
+}
+.MuiDialogTitle-root {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 30px 17px !important;
+}
+svg.MuiSvgIcon-root {
+    padding-right: 17px !important;
+}
+.makeStyles-root-2 {
+    width: 40px !important;
+    height: 40px !important;
+}
+.makeStyles-root-1 .MuiDialogTitle-root .MuiIconButton-root {
+    color: #9e9e9e;
+    padding: 8px 11px !important;
+}
+
+@media only screen and (max-width: 1025px) {
+    h2.MuiTypography-h6.MuiTypography-root {
+        font-size: 27px;
+    }
+    .MuiDialogTitle-root {
+        padding: 26px !important;
+    }
+    svg.MuiSvgIcon-root {
+        padding-right: 19px;
+    }
+    h2.MuiTypography-root.MuiTypography-h6 {
+        width: 290px;
+    }
+    .MuiDialogTitle-root {
+        padding: 28px;
+    }
+    .makeStyles-root-1 .MuiDialog-paper {
+        width: 320px;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .makeStyles-root-1 .MuiDialogContent-root .MuiListItem-root .MuiButton-root {
+        padding: 32px 24px;
+        flex-grow: 1;
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: space-between;
+    }
+    .MuiButton-label {
+        width: 100%;
+        display: inherit;
+        font-size: 25px;
+    }
+    .makeStyles-root-1 .MuiDialogContent-root .MuiListItem-root .MuiButton-root {
+        padding: 23px 24px !important;
+    }
+    .MuiDialogTitle-root {
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 30px 17px !important;
+    }
+    svg.MuiSvgIcon-root {
+        padding-right: 17px !important;
+    }
+    .makeStyles-root-2 {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .makeStyles-root-1 .MuiDialogTitle-root .MuiIconButton-root {
+        color: #9e9e9e;
+        padding: 8px 11px !important;
+    }
+}
